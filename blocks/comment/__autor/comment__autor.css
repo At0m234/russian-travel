@@ -1,0 +1,33 @@
+.comment__autor {
+    width: 100%;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 24px;
+    margin: 16px auto 24px auto;
+    color: #FFF;
+}
+@media screen and (min-width : 1024px) and (max-width : 1279px) {
+    .comment__autor {
+        text-align: left;
+    }
+}
+@media screen and (min-width : 768px) and (max-width : 1023px) {
+    .comment__autor {
+        text-align: center; 
+        grid-row: 2;
+    }
+}
+@media screen and (min-width : 375px) and (max-width : 767px) {
+    .comment__autor {
+        text-align: center; 
+        grid-row: 2;
+    }
+} 
+@media screen and (max-width : 374px) {
+    .comment__autor {
+        text-align: center;
+        grid-row: 2;
+    }
+}
+

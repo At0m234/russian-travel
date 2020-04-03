@@ -1,0 +1,32 @@
+@import url('__container/comments__container.css');
+
+.comments {
+    width: 92.5%;
+    max-width: 1184px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin: 0 auto 102px auto;
+}
+@media screen and (min-width : 1024px) and (max-width : 1279px) {
+    .comments {
+        width: 90.63%;
+    }
+}
+@media screen and (min-width : 768px) and (max-width : 1023px) {
+    .comments {
+        width: 85.94%;
+    }
+}
+@media screen and (min-width : 375px) and (max-width : 767px) {
+    .comments {
+        width: 91.47%;
+        margin: 0 auto 48px auto;
+    }
+}
+@media screen and (max-width : 374px) {
+    .comments {
+        width: 90%;
+        margin: 0 auto 16px auto;
+    }
+}

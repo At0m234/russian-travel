@@ -1,0 +1,7 @@
+.intro__alignment {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+    max-width: 985px;
+}

@@ -1,0 +1,13 @@
+@import url('-rus/header__lang-rus.css');
+@import url('-eng/header__lang-eng.css');
+
+.header__lang {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-end;
+}
+
+
+
+
+
