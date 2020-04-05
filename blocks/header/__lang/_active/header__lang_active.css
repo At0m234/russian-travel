@@ -5,3 +5,15 @@
     line-height: 23px;
     color: #FFF;
 }
+@media screen and (min-width : 375px) and (max-width : 767px) {
+    .header__lang_active {
+        font-size: 18px;
+        line-height: 96.82%;
+    }
+}
+@media screen and (max-width : 374px) {
+    .header__lang_active {
+        font-size: 18px;
+        line-height: 96.82%;
+    }
+}

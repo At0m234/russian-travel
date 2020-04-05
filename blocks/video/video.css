@@ -4,7 +4,7 @@
 @import url('__icon-play/video__icon-play.css');
 @import url('__duration/video__duration.css');
 @import url('__container/video__container.css');
-@import url('__overlay/video__overlay.css');
+@import url('__link/video__link.css');
 
 .video {
     display: flex;

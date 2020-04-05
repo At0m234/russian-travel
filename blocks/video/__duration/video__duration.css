@@ -4,7 +4,6 @@
     font-size: 12px;
     margin: 0 0 12px 30px;
     color: #FFF;
-    z-index: 1;
 }
 @media screen and (min-width : 1024px) and (max-width : 1279px) {
     .video__duration {
@@ -28,4 +27,3 @@
         margin: 0 auto 8px 16px;
     }
 }
-
