@@ -11,11 +11,13 @@
 @media screen and (min-width : 1024px) and (max-width : 1279px) {
     .content-subtitle {
         width: 69%;
+        line-height: 35px;
     }
 }
 @media screen and (min-width : 768px) and (max-width : 1023px) {
     .content-subtitle {
-        width: 94%;
+        width: 99%;
+        line-height: 35px;
         margin: 0 auto;
     }
 }
@@ -24,7 +26,6 @@
         width: 100%;
         margin: 0 auto;
         font-size: 16px;
-        line-height: 23px;
     }
 }
 @media screen and (max-width : 374px) {
@@ -32,7 +33,6 @@
         width: 100%;
         margin: 0 auto 24px auto;
         font-size: 16px;
-        line-height: 23px;
     }
 }
 

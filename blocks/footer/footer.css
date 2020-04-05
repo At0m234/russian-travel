@@ -1,10 +1,10 @@
-@import url('__row-link/footer__row-link.css');
+@import url('__info/footer__info.css');
+@import url('__links/footer__links.css');
 @import url('__link/footer__link.css');
 @import url('__copyright/footer__copyright.css');
 
 .footer {
     display: flex;
-    justify-content: space-between;
     width: 92.5%;
     max-width: 1184px;
     padding-bottom: 50px;
@@ -12,8 +12,6 @@
 }
 @media screen and (min-width : 1024px) and (max-width : 1279px) {
     .footer {
-        display: flex;
-        flex-direction: row;
         width: 90.72%;
     }
 }
@@ -27,16 +25,14 @@
 @media screen and (min-width : 375px) and (max-width : 767px) {
     .footer {
         width: 75.2%;
-        flex-direction: column;
         margin: 0 77px 0 16px;
         padding-bottom: 24px;
     }
 } 
 @media screen and (max-width : 374px) {
     .footer {
-        width: 88.13%;
+        max-width: 57.19%;
         margin: 0 auto 0 16px;
         padding-bottom: 24px;
-        flex-direction: column;
     }
 }
