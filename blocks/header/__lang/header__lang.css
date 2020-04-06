@@ -1,18 +1,11 @@
-
-@import url('_active/header__lang_active.css');
-
 .header__lang {
-    display: flex;
-    flex-direction: row;
-    align-self: flex-end;
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
     line-height: 23px;
     color: #FFF;
-    margin: 0;
-    text-decoration: none;
     text-transform: capitalize;
+    text-decoration: none;
 }
 
 .header__lang:hover {
@@ -21,13 +14,13 @@
 }
 
 @media screen and (min-width : 375px) and (max-width : 767px) {
-    .header__lang {
+    .header__lang_active {
         font-size: 18px;
         line-height: 96.82%;
     }
 }
 @media screen and (max-width : 374px) {
-    .header__lang {
+    .header__lang_active {
         font-size: 18px;
         line-height: 96.82%;
     }

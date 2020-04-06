@@ -4,6 +4,7 @@
 @import url('__main-illustration/lead__main-illustration.css');
 @import url('__route/lead__route.css');
 @import url('__caption/lead__caption.css');
+@import url('__wagon-picture/lead__wagon-picture.css');
 
 .lead {
     display: flex;
