@@ -1,0 +1,8 @@
+.video__item_type_kamchatka {
+    background-image: url('../../../../images/Colors of Kamchatka.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    text-decoration-line: none;
+    min-width: 100%;
+    border-radius: 5px;
+}

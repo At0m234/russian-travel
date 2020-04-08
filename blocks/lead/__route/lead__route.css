@@ -1,0 +1,33 @@
+.lead__route {
+    display: flex;
+    flex-direction: column;
+    background-image: url("../../../images/route.svg");
+    background-size: 100% 100%;
+    width: 95.12%;
+    max-width: 937px;
+    height: 100%;
+    max-height: 226px;
+    margin: 0 auto;
+    position: absolute;
+    z-index: 2;
+}
+
+@media screen and (min-width : 768px) and (max-width : 1023px) {
+    .lead__route {
+        width: 95.18%;
+        max-height: 225px;
+    }
+}
+@media screen and (min-width : 375px) and (max-width : 767px) {
+    .lead__route {
+        width: 95.2%;
+        max-height: 171px;
+    }
+} 
+@media screen and (max-width : 374px) {
+    .lead__route {
+        width: 95.31%;
+        max-height: 86px;
+    } 
+}
+

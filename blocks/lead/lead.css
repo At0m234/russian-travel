@@ -1,0 +1,41 @@
+@import url('__main-picture/lead__main-picture.css');
+@import url('__title/lead__title.css');
+@import url('__subtitle/lead__subtitle.css');
+@import url('__main-illustration/lead__main-illustration.css');
+@import url('__route/lead__route.css');
+@import url('__caption/lead__caption.css');
+@import url('__wagon-picture/lead__wagon-picture.css');
+
+.lead {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 76.95%;
+    max-width: 985px;
+    margin: 0 auto;
+}
+@media screen and (min-width : 1024px) and (max-width : 1279px) {
+    .lead {
+        width: 90.63%;
+        max-width: 1159px;
+        margin: 0 auto 80px auto;
+    }
+}
+@media screen and (min-width : 768px) and (max-width : 1023px) {
+    .lead {
+        width: 100%;
+        margin: 0 auto 80px auto;
+    }
+}
+@media screen and (min-width : 375px) and (max-width : 767px) {
+    .lead {
+        width: 100%;
+        margin: 0 auto 64px auto;
+    }
+} 
+@media screen and (max-width : 374px) {
+    .lead {
+        width: 100%;
+    }
+}

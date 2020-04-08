@@ -1,0 +1,42 @@
+@import url('__title/cover__title.css');
+@import url('__subtitle/cover__subtitle.css');
+@import url('__bg/cover__bg.css');
+
+.cover {
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    width: 100%;
+    height: calc(594 / 1184 * (100vw));
+    max-height: 594px;
+    max-width: 1184px;
+    background-image: url('../../images/To lake Baikal on dogs.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+@media screen and (min-width : 1024px) and (max-width : 1279px) {
+    .cover {
+        height: calc(562 / 1024 * (100vw));
+        margin: 0 auto;
+    }
+}
+@media screen and (min-width : 768px) and (max-width : 1023px) {
+    .cover {
+        height: calc(500 / 768 * (100vw));
+        margin: 0 auto 102px auto;
+    }
+}
+@media screen and (min-width : 375px) and (max-width : 767px) {
+    .cover {
+        height: calc(272 / 375 * (100vw));
+        margin: 0 auto 64px auto;
+    }
+}
+@media screen and (max-width : 374px) {
+    .cover {
+        height: calc(216 / 320 * (100vw));
+        margin: 0 auto 64px auto;
+    }
+}

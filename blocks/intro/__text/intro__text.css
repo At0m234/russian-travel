@@ -1,0 +1,41 @@
+.intro__text {
+    display: flex;
+    flex-direction: column;
+    width: 56.08%;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 20px;
+    list-style: none;
+    padding: 0;
+    margin: 24px 0 0 0;
+    color: #FFF;
+}
+@media screen and (min-width : 1024px) and (max-width : 1279px) {
+    .intro__text {
+        width: 41.27%;
+        margin: 0 auto 0 0;
+    }
+}
+@media screen and (min-width : 768px) and (max-width : 1023px) {
+    .intro__text {
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+@media screen and (min-width : 375px) and (max-width : 767px) {
+    .intro__text {
+        width: 100%;
+        font-size: 12px;
+        margin: 32px auto 64px auto;
+    }
+} 
+@media screen and (max-width : 374px) {
+    .intro__text {
+        width: 100%;
+        font-size: 12px;
+        margin: 0 auto 0 0;
+    }
+}
+
+
