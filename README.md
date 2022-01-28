@@ -1,5 +1,5 @@
 # Проект 3: Путешествие по России
-[https://at0m234.github.io/third-project/index.html]
+[https://at0m234.github.io/russian-travel/]
 ### Обзор
 * Интро
 * Figma
