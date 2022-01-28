@@ -1,36 +1,40 @@
 .comment__quote {
-    width: 100%;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 24px;
-    color: #FFF;
-    margin: 42px auto 24px 0;
+  width: 100%;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #FFF;
+  margin: 42px auto 24px 0;
 }
+
 @media screen and (min-width : 1024px) and (max-width : 1279px) {
-    .comment__quote {
-        margin: 40px auto 16px auto;
-    }
+  .comment__quote {
+    margin: 40px auto 16px auto;
+  }
 }
+
 @media screen and (min-width : 768px) and (max-width : 1023px) {
-    .comment__quote {
-        margin: 0 auto;
-        font-size: 16px;
-        line-height: 23px;
-    }
+  .comment__quote {
+    margin: 0 auto;
+    font-size: 16px;
+    line-height: 23px;
+  }
 }
+
 @media screen and (min-width : 375px) and (max-width : 767px) {
-    .comment__quote {
-        font-size: 16px;
-        line-height: 23px;
-        margin: 0 auto 48px auto;
-    }
+  .comment__quote {
+    font-size: 16px;
+    line-height: 23px;
+    margin: 0 auto 48px auto;
+  }
 }
+
 @media screen and (max-width : 374px) {
-    .comment__quote {
-        font-size: 16px;
-        line-height: 23px;
-        margin: 0 auto 48px auto;
-    }
+  .comment__quote {
+    font-size: 16px;
+    line-height: 23px;
+    margin: 0 auto 48px auto;
+  }
 }
 

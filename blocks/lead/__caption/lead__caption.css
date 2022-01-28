@@ -1,35 +1,39 @@
 .lead__caption {
-    width: 64.57%;
-    align-self: start;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 10px;
-    line-height: 12px;
-    text-transform: uppercase;
-    margin: 10px 0 0 0;
-    color: #FFF;
+  width: 64.57%;
+  align-self: start;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 12px;
+  text-transform: uppercase;
+  margin: 10px 0 0 0;
+  color: #FFF;
 }
+
 @media screen and (min-width : 1024px) and (max-width : 1279px) {
-    .lead__caption {
-        width: 68.53%;
-        margin-top: 16px;
-    }
+  .lead__caption {
+    width: 68.53%;
+    margin-top: 16px;
+  }
 }
+
 @media screen and (min-width : 768px) and (max-width : 1023px) {
-    .lead__caption {
-        width: 82.81%;
-        margin: 16px auto 0 24px;
-    }
+  .lead__caption {
+    width: 82.81%;
+    margin: 16px auto 0 24px;
+  }
 }
+
 @media screen and (min-width : 375px) and (max-width : 767px) {
-    .lead__caption {
-        width: 91.47%;
-        margin: 0 auto;
-} 
+  .lead__caption {
+    width: 91.47%;
+    margin: 0 auto;
+  }
 }
+
 @media screen and (max-width : 374px) {
-    .lead__caption {
-        width: 90%;
-        margin: 0 auto;
-} 
+  .lead__caption {
+    width: 90%;
+    margin: 0 auto;
+  }
 }

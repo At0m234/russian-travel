@@ -1,18 +1,12 @@
 .place__url {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    text-decoration-line: underline;
-    color: #FFF;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  text-decoration-line: underline;
+  color: #FFF;
 }
 
 .place__url:hover {
-    transition: .1s linear .05s;
-    opacity: 0.7;
+  transition: .1s linear .05s;
+  opacity: 0.7;
 }
-
-
-
-
-
-

@@ -1,17 +1,19 @@
 .footer__info {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
 }
+
 @media screen and (min-width : 375px) and (max-width : 767px) {
-    .footer__info {
-        flex-direction: column;
-    }
-} 
+  .footer__info {
+    flex-direction: column;
+  }
+}
+
 @media screen and (max-width : 374px) {
-    .footer__info {
-        flex-direction: column;
-    }
+  .footer__info {
+    flex-direction: column;
+  }
 }
 

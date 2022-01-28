@@ -1,40 +1,41 @@
 .content-subtitle {
-    width: 54.05%;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 35px;
-    text-align: center;
-    color: #FFF;
-    margin: 0 auto 72px auto;
+  width: 54.05%;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 35px;
+  text-align: center;
+  color: #FFF;
+  margin: 0 auto 72px auto;
 }
+
 @media screen and (min-width : 1024px) and (max-width : 1279px) {
-    .content-subtitle {
-        width: 69%;
-        line-height: 35px;
-    }
+  .content-subtitle {
+    width: 69%;
+    line-height: 35px;
+  }
 }
+
 @media screen and (min-width : 768px) and (max-width : 1023px) {
-    .content-subtitle {
-        width: 99%;
-        line-height: 35px;
-        margin: 0 auto;
-    }
+  .content-subtitle {
+    width: 99%;
+    line-height: 35px;
+    margin: 0 auto;
+  }
 }
+
 @media screen and (min-width : 375px) and (max-width : 767px) {
-    .content-subtitle {
-        width: 100%;
-        margin: 0 auto;
-        font-size: 16px;
-    }
+  .content-subtitle {
+    width: 100%;
+    margin: 0 auto;
+    font-size: 16px;
+  }
 }
+
 @media screen and (max-width : 374px) {
-    .content-subtitle {
-        width: 100%;
-        margin: 0 auto 24px auto;
-        font-size: 16px;
-    }
+  .content-subtitle {
+    width: 100%;
+    margin: 0 auto 24px auto;
+    font-size: 16px;
+  }
 }
-
-
-

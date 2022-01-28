@@ -1,32 +1,36 @@
 .video__subtitle {
-    min-width: 174px;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    margin: 0 0 30px 30px;
-    color: #FFF;
+  min-width: 174px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  margin: 0 0 30px 30px;
+  color: #FFF;
 }
+
 @media screen and (min-width : 1024px) and (max-width : 1279px) {
-    .video__subtitle {
-        margin: 0 auto 35px 30px;
-        max-width: 50%;
-    }
+  .video__subtitle {
+    margin: 0 auto 35px 30px;
+    max-width: 50%;
+  }
 }
+
 @media screen and (min-width : 768px) and (max-width : 1023px) {
-    .video__subtitle {
-        margin: 0 0 24px 24px;
-        min-width: 200px;
-    }
+  .video__subtitle {
+    margin: 0 0 24px 24px;
+    min-width: 200px;
+  }
 }
+
 @media screen and (min-width : 375px) and (max-width : 767px) {
-    .video__subtitle {
-        max-width: 295px;
-        margin: 0 auto 24px 24px;
-    }
+  .video__subtitle {
+    max-width: 295px;
+    margin: 0 auto 24px 24px;
+  }
 }
+
 @media screen and (max-width : 374px) {
-    .video__subtitle {
-        max-width: 80%;
-        margin: 0 16px 16px 16px;
-    } 
+  .video__subtitle {
+    max-width: 80%;
+    margin: 0 16px 16px 16px;
+  }
 }
