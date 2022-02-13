@@ -1,13 +1,11 @@
-# ___Учебная проектная работа № 3: Путешествия по России___
+# __Yandex.Practicum. Web Development training course. Project work No. 3: Russian travel__
 
-## ___Обзор___
-Учебный проект о путешествиях по России - адаптивный одностраничный сайт, созданный по макету из Figma, при помощи медиазапросов, flexbox и grid. Сайт оптимизирован под разрешения экранов от 320px до бесконечности. При вёрстке использован подход Desktop First. Изобржения доставались из Фигмы и [оптимизировались](https://tinypng.com/), чтобы ваш сайт загружался быстрее.
-___
-## ___GitHub Pages___
-* [Ссылка на проектную работу](https://At0m234.github.io/russian-travel/)
-___
+## __Functionality__
+"Russian travel" - adaptive single page website created based on a layout from Figma, using media queries, flexbox and grid. The site is optimized for screen resolutions from 320px to infinity. The Desktop First approach was used in the layout. The images were taken from the Figma and [optimized](https://tinypng.com/) to make your site load faster.
 
-## ___Технологический стек:___
-1. HTML
-2. CSS
-4. BEM Nested
+## __[GitHub Pages](https://At0m234.github.io/russian-travel/)__
+
+## __Stack__
+
+### `HTML`
+### `CSS`
